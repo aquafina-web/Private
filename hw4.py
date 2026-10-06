@@ -1,8 +1,9 @@
-#public
-class x:
-    name = ''
-    def __init__(self, name):
-        self.name = name
+# protected
+class user:
+    _email = ''
 
-x1 = x("rahi")
-print(x1.name)
+    def __init__(self, email):
+        self._email = email
+
+s1 = user('@abcgmail.com')
+print(s1._email)
